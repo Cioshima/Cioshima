@@ -1,0 +1,13 @@
+body {
+  padding: 15px;
+  margin: 30px;
+  border: 2px;
+  border-style: ridge;
+  border-color: midnightblue;
+  line-height: 30px;
+}
+
+th {
+  text-decoration: underline;
+  text-align: left;
+}
