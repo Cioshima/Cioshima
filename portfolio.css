@@ -13,11 +13,11 @@ ul.a {
 }
 
 #html {
-  text-decoration: line-through;
+  text-decoration: line-through 2px;
 }
 
 #css {
-  text-decoration: line-through;
+  text-decoration: line-through 2px;
 }
 
 img {
