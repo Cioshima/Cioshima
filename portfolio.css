@@ -12,6 +12,14 @@ ul.a {
   list-style-type: square;
 }
 
+#html {
+  text-decoration: line-through;
+}
+
+#css {
+  text-decoration: line-through;
+}
+
 img {
   width: 25%;
   max-width: 1363px;
