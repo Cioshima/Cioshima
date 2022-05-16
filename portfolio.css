@@ -7,6 +7,11 @@ body {
   line-height: 30px;
   font-family: "PT Sans Narrow", sans-serif;
 }
+
+ul.a {
+  list-style-type: square;
+}
+
 img {
   width: 25%;
   max-width: 1363px;
