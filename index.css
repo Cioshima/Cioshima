@@ -1,0 +1,46 @@
+div {
+  min-height: 50vh;
+  padding: 10px;
+  margin: 0%;
+  color: darkgray;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.title {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/big.jpg) center/cover no-repeat fixed;
+  text-align: center;
+  font-size: 50px;
+}
+
+.links {
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(rgba(50, 0, 50, 0.5), rgba(50, 0, 50, 0.5)),
+    url(./images/big.jpg) center/cover no-repeat fixed;
+}
+
+div > a {
+  color: bisque;
+  display: inline;
+}
+
+.checklist {
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(rgba(50, 0, 50, 0.5), rgba(50, 0, 50, 1)),
+    url(./images/big.jpg) center/cover no-repeat fixed;
+}
+
+div > h3 > details > li {
+  text-align: center;
+  list-style-type: none;
+}
+
+#html {
+  text-decoration: line-through;
+}
+
+#css {
+  text-decoration: line-through;
+}
