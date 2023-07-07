@@ -1,3 +1,4 @@
+/* Default styles for all screen sizes */
 div {
   min-height: 50vh;
   padding: 10px;
@@ -21,7 +22,6 @@ div {
     url(./images/big.jpg) center/cover no-repeat fixed;
 }
 
-
 li {
   list-style-type: none;
 }
@@ -35,4 +35,49 @@ li {
 
 div > a {
   color: darkgray;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .programming {
+    font-size: 20px;
+  }
+
+  .links {
+    font-size: 40px;
+  }
+}
+
+/* Media query for screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .programming {
+    font-size: 25px;
+  }
+
+  .links {
+    font-size: 45px;
+  }
+}
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .programming {
+    font-size: 30px;
+  }
+
+  .links {
+    font-size: 50px;
+  }
 }
