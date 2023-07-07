@@ -36,6 +36,7 @@ div > h2 {
 div > ul > li {
   text-align: left;
   padding-left: 100px;
+  padding-top: 50px;
 }
 
 div > a {
