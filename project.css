@@ -1,3 +1,4 @@
+/* Default styles for all screen sizes */
 div {
   min-height: 50vh;
   padding: 10px;
@@ -27,6 +28,7 @@ div {
   background: linear-gradient(rgba(50, 0, 50, 0.5), rgba(50, 0, 50, 1)),
     url(./images/big.jpg) center/cover no-repeat fixed;
 }
+
 div > h2 {
   text-decoration: underline;
 }
@@ -38,4 +40,61 @@ div > p {
 
 div > a {
   color: darkgray;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .project {
+    font-size: 30px;
+  }
+
+  .links {
+    font-size: 40px;
+  }
+
+  div > p {
+    padding-left: 20px;
+  }
+}
+
+/* Media query for screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .project {
+    font-size: 40px;
+  }
+
+  .links {
+    font-size: 45px;
+  }
+
+  div > p {
+    padding-left: 50px;
+  }
+}
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 50px;
+  }
+
+  .project {
+    font-size: 50px;
+  }
+
+  .links {
+    font-size: 50px;
+  }
+
+  div > p {
+    padding-left: 100px;
+  }
 }
