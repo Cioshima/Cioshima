@@ -17,7 +17,7 @@ div {
 .project {
   color: bisque;
   font-size: 50px;
-  text-align: center;
+  text-align: left;
   background: linear-gradient(rgba(50, 0, 50, 0.5), rgba(50, 0, 50, 0.5)),
     url(./images/big.jpg) center/cover no-repeat fixed;
 }
