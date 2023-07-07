@@ -1,4 +1,4 @@
-/* div {
+ div {
   min-height: 50vh;
   padding: 10px;
   margin: 0%;
@@ -43,44 +43,4 @@ div > h3 > details > li {
 
 #css {
   text-decoration: line-through;
-}
- */
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-main {
-  padding: 20px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
 }
