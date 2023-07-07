@@ -31,6 +31,7 @@ li {
   text-align: center;
   background: linear-gradient(rgba(50, 0, 50, 0.5), rgba(50, 0, 50, 1)),
     url(./images/big.jpg) center/cover no-repeat fixed;
+  align-self: flex-end; /* Aligns the content at the bottom */
 }
 
 div > a {
